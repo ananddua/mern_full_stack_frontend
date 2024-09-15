@@ -1,13 +1,13 @@
 {
-  "homepage": "https://ananddua.github.io/MERN_Stack_Application",
+  "homepage": "https://ananddua.github.io/mern_full_stack_frontend",
   "name": "client",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "predeploy": "npm run dev",
-    "deploy": "gh-pages -d vite",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d bulid",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
