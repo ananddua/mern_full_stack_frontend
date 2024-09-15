@@ -1,0 +1,115 @@
+.dashboard-container {
+  padding: 20px;
+}
+
+.active-section {
+  background-color: #007bff;
+  color: white;
+}
+
+.content-header {
+  display: flex;
+  flex-direction: column;
+}
+
+.content-title {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.diet-container {
+  display: flex;
+  align-items: center; /* Ensure input field aligns with the title */
+  gap: 10px; /* Space between title and input */
+}
+
+.diet-input {
+  font-size: 1.5rem;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px #ccc; /* Add border to make input visible */
+  width: 100%;
+  max-width: 300px; /* Adjust as needed */
+}
+
+.content-buttons {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px; /* Add margin to separate from the title */
+}
+
+.content-buttons button {
+  padding: 5px 15px;
+  background-color: #e7e7e7;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+  z-index: 1; /* Ensure buttons are clickable */
+}
+
+.content-buttons button:hover {
+  background-color: #007bff;
+}
+
+.save-button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  margin-top: 7px;
+  cursor: pointer;
+  border-radius: 5px;
+  z-index: 1; /* Ensure save button is clickable */
+}
+
+.save-button:hover {
+  background-color: #0560c2;
+}
+
+.stretching-table-section {
+  margin-top: 20px;
+}
+
+.stretching-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px; /* Add margin to avoid overlapping */
+}
+
+.stretching-table th,
+.stretching-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.stretching-table th {
+  background-color: #f4f4f4;
+}
+
+.table-notes {
+  margin-top: 10px;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.content-title {
+  display: inline;
+  margin: 0;
+}
+
+/* Additional Fixes */
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.dashboard-container, .content, .stretching-table-section {
+  display: block;
+}
+
+.content {
+  display: block;
+}
