@@ -1,14 +1,12 @@
 /** @type {import('tailwindcss').Config} */
-module.exports = {
-  darkMode: "class",
-  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
-  theme: {
-    extend: {
-      colors: {
-        'lightgray': '#CCCCCC', // Light Gray Background
-        'darkgray': '#1A237E', // Dark Gray Text
-      },
+export const darkMode = "class";
+export const content = ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"];
+export const theme = {
+  extend: {
+    colors: {
+      'lightgray': '#CCCCCC', // Light Gray Background
+      'darkgray': '#1A237E', // Dark Gray Text
     },
   },
-  plugins: [],
 };
+export const plugins = [];
